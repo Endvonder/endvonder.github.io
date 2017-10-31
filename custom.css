@@ -1,0 +1,92 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+
+.content {
+    padding: 25px;
+}
+
+._align-left {
+    text-align: left;
+}
+
+._align-center {
+    text-align: center;
+}
+
+._align-right {
+    text-align: right;
+}
+
+.btn-group, .btn-group .btn {
+    width: 100%;
+}
+
+.dropdown-menu {
+    width: 100%;
+}
+
+.btn-group-vertical > .btn,
+.btn-group > .btn {
+    text-align: left;
+}
+
+.btn-group .caret {
+    position: absolute;
+    top: 14px;
+    right: 10px;
+}
+
+table {
+    table-layout: fixed;
+    width: 200px;
+}
+
+th {
+    width: 1px;
+    white-space: nowrap;
+}
+
+.top-widget {
+    height: 220px;
+    margin-bottom: 15px;
+}
+
+    .top-widget > [class*="col-"],
+    .top-widget > [class*="col-"] .panel {
+        height: 100%;
+    }
+
+.label-group {
+    margin-top: 25px;
+}
+
+#totalCalls td, th, p {
+    padding: 0px;
+    margin: 0;
+    text-align: center;
+    font-size: 13px;
+}
+
+#totalCalls thead th {
+    font-size: 13px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.button-group {
+    margin-bottom: 20px;
+}
+
+.panel-body-workflows {
+    margin-top: 15px;
+}
+
+.tab-content {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 5px;
+}
