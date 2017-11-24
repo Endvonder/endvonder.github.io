@@ -1,8 +1,17 @@
-html, body {
+html,
+body {
     width: 100%;
     height: 100%;
 }
 
+.Subhead {
+    display: -webkit-box;
+    display: flex;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+    border-bottom: 1px #e1e4e8 solid;
+    flex-flow: row wrap;
+}
 
 .content {
     padding: 25px;
@@ -20,7 +29,8 @@ html, body {
     text-align: right;
 }
 
-.btn-group, .btn-group .btn {
+.btn-group,
+.btn-group .btn {
     width: 100%;
 }
 
@@ -28,8 +38,8 @@ html, body {
     width: 100%;
 }
 
-.btn-group-vertical > .btn,
-.btn-group > .btn {
+.btn-group-vertical>.btn,
+.btn-group>.btn {
     text-align: left;
 }
 
@@ -54,16 +64,18 @@ th {
     margin-bottom: 15px;
 }
 
-    .top-widget > [class*="col-"],
-    .top-widget > [class*="col-"] .panel {
-        height: 100%;
-    }
+.top-widget>[class*="col-"],
+.top-widget>[class*="col-"] .panel {
+    height: 100%;
+}
 
 .label-group {
     margin-top: 25px;
 }
 
-#totalCalls td, th, p {
+#totalCalls td,
+th,
+p {
     padding: 0px;
     margin: 0;
     text-align: center;

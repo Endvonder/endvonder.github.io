@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AgentMain</title>
+    <meta charset="utf-8" />
+
+    <!-- <script src="../Scripts/jquery-1.9.1.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="custom.css">
+
+</head>
+
+<body>
+
+
+
+
+    <div class="content">
+        <div class="row">
+
+            <!--agent info-->
+
+            <div class="current-workflow col-md-12">
+                <div class="panel panel-default">
+
+
+                    <h3 class="panel-title">Agent info</h3>
+
+
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <label>First Name</label>
+                                <input type="text" class="form-control" />
+                            </div>
+                            <div class="col-md-3">
+                                <label>Last Name</label>
+                                <input type="text" class="form-control" />
+                            </div>
+                            <div class="col-md-2">
+                                <label>Phone</label>
+                                <input type="text" class="form-control" />
+                            </div>
+                            <div class="col-md-2">
+                                <label>Email</label>
+                                <input type="text" class="form-control" />
+                            </div>
+                            <div class="col-md-2">
+                                <label>CID ID</label>
+                                <input type="text" class="form-control" />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="current-workflow col-md-12">
+                <div class="panel panel-default">
+
+
+                    <h3 class="panel-title">Agent outcome</h3>
+
+
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-2"><label>Training required:</label></div>
+                            <div class="col-md-1">
+                                <input type="checkbox">
+                                <label>Yes</label>
+                            </div>
+                            <div class="col-md-1">
+                                <input type="checkbox">
+                                <label>No</label>
+                            </div>
+                            <div class="col-md-3" style="width:auto;">
+                                <label>If yes, select training type:</label>
+                            </div>
+                            <div class="col-md-5">
+
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Action <span class="caret"></span>
+                                        </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">First type</a></li>
+                                    <li><a href="#">Second type</a></li>
+                                    <li><a href="#">Third type</a></li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2">
+                                <label>Analysis data to send:</label>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+</body>
+
+</html>
