@@ -102,3 +102,7 @@ p {
     padding-right: 0px;
     padding-top: 5px;
 }
+
+.top-buffer {
+    margin-top: 15px;
+}
