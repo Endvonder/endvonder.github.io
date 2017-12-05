@@ -19,17 +19,11 @@
 
 
     <div class="content">
+        <!--agent info-->
         <div class="row">
-
-            <!--agent info-->
-
             <div class="current-workflow col-md-12">
                 <div class="panel panel-default">
-
-
                     <h3 class="panel-title">Agent info</h3>
-
-
                     <div class="panel-body">
                         <div class="row">
                             <div class="col-md-3">
@@ -58,18 +52,14 @@
                 </div>
             </div>
         </div>
-        <div class="row">
 
+        <!--agent outcome-->
+        <div class="row">
             <div class="current-workflow col-md-12">
                 <div class="panel panel-default">
-
-
                     <h3 class="panel-title">Agent outcome</h3>
-
-
                     <div class="panel-body">
                         <div class="row">
-
                             <div class="form-group">
                                 <div class="col-md-3">
                                     <label>Training required:</label>
@@ -204,54 +194,135 @@
 
                     </div>
                 </div>
-                <div class="row">
-                    <div class="current-workflow col-md-12">
-                        <div class="panel panel-default">
 
-
-                            <h3 class="panel-title">Report Extract</h3>
-
-
-                            <div class="panel-body">
+            </div>
+        </div>
+        <!--report extract-->
+        <div class="row">
+            <div class="current-workflow col-md-12">
+                <div class="panel panel-default">
+                    <h3 class="panel-title">Report Extract</h3>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <label>Report type to send:</label>
+                            </div>
+                            <div class="col-md-10">
+                                <div class="row" style="margin-bottom: 5px;">
+                                    <div class="col-md-2 auto-col">
+                                        <label>Voice all</label>
+                                        <input type="checkbox" style="display: block" />
+                                    </div>
+                                    <div class="col-md-2 auto-col">
+                                        <label>Voice ACD detail</label>
+                                        <input type="checkbox" style="display: block" />
+                                    </div>
+                                    <div class="col-md-2 auto-col">
+                                        <label>Voice Non ACD detail</label>
+                                        <input style="display: block" type="checkbox" />
+                                    </div>
+                                    <div class="col-md-3 auto-col">
+                                        <label>Voice ACD hourly detail</label>
+                                        <input style="display: block" type="checkbox" />
+                                    </div>
+                                    <div class="col-md-3 auto-col">
+                                        <label>Voice Non ACD hourly detail</label>
+                                        <input style="display: block" type="checkbox" />
+                                    </div>
+                                </div>
                                 <div class="row">
-
-                                    <div class="col-md-2">
-                                        <label>Report type to send:</label>
+                                    <div class="col-md-1">
+                                        <input type="checkbox">
+                                        <label>Fax</label>
                                     </div>
+                                </div>
 
-                                    <div class="col-md-10">
-                                        <div class="row">
-                                            <div class="col-md-2 auto-col">
-                                                <label>Voice all</label>
-                                                <input type="checkbox" style="display: block" />
-                                            </div>
-                                            <div class="col-md-2 auto-col">
-                                                <label>Voice ACD detail</label>
-                                                <input type="checkbox" style="display: block" />
-                                            </div>
-                                            <div class="col-md-2 auto-col">
-                                                <label>Voice Non ACD detail</label>
-                                                <input style="display: block" type="checkbox" />
-                                            </div>
-                                            <div class="col-md-3 auto-col">
-                                                <label>Voice ACD hourly detail</label>
-                                                <input style="display: block" type="checkbox" />
-                                            </div>
-                                            <div class="col-md-3 auto-col">
-                                                <label>Voice Non ACD hourly detail</label>
-                                                <input style="display: block" type="checkbox" />
-                                            </div>
-                                        </div>
-
+                                <div class="row">
+                                    <div class="col-md-1">
+                                        <input type="checkbox">
+                                        <label>Email</label>
                                     </div>
+                                </div>
 
+                                <div class="row">
+                                    <div class="col-md-1">
+                                        <input type="checkbox">
+                                        <label>IPA</label>
+                                    </div>
+                                </div>
 
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <input type="checkbox">
+                                        <label>Dialer</label>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <input type="checkbox">
+                                        <label>Recorder</label>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <input type="checkbox">
+                                        <label>Adherence</label>
+                                    </div>
                                 </div>
 
                             </div>
                         </div>
+                        <div class="row">
+                            <div class="col-md-2">
+                                <label>Email sent To:</label>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2">
+                                <label>Internal:</label>
+                            </div>
+                            <div class="col-md-4">
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                             
+                                            <span class="caret"></span>
+                                        </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">First type</a></li>
+                                    <li><a href="#">Second type</a></li>
+                                    <li><a href="#">Third type</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2">
+                                <label>External To:</label>
+                            </div>
+                            <div class="col-md-2">
+                                <input type="text" class="form-control" />
+                            </div>
+                            <div class="col-md-2">
+                                <label>External CC:</label>
+                            </div>
+                            <div class="col-md-2">
+                                <input type="text" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="row top-buffer">
+                            <div class="col-md-12">
+                                <div class="_align-right">
+                                    <button class="btn btn-primary">Custom report</button>
+                                    <button class="btn btn-primary">Send report</button>
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+            </div>
+        </div>
 </body>
 
 </html>
