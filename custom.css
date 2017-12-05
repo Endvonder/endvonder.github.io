@@ -29,6 +29,10 @@ body {
     text-align: right;
 }
 
+.auto-col {
+    width: auto;
+}
+
 .btn-group,
 .btn-group .btn {
     width: 100%;
