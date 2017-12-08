@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html>
+
 <head>
     <title>Interactions</title>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
@@ -8,164 +9,201 @@
     <link rel="stylesheet" href="custom.css">
     <meta charset="utf-8" />
 </head>
+
 <body>
     <div class="content">
         <div class="button-group">
-            <input class="btn btn-default" type="button" value="Voice ACD detail" name="update" id="update" size="40" />
-            <input class="btn btn-default" type="button" value="Voice Non ACD detail" name="update" id="update" size="40" />
-            <input class="btn btn-default" type="button" value="Fax detail" name="update" id="update" size="40" />
-            <input class="btn btn-default" type="button" value="Email detail" name="update" id="update" size="40" />
-            <input class="btn btn-default" type="button" value="Agent workgroup utilization" name="update" id="update" size="40" />
+            <input class="btn btn-default input-sm" type="button" value="Voice ACD detail" name="update" id="update" size="40" />
+            <input class="btn btn-default input-sm" type="button" value="Voice Non ACD detail" name="update" id="update" size="40" />
+            <input class="btn btn-default input-sm" type="button" value="Fax detail" name="update" id="update" size="40" />
+            <input class="btn btn-default input-sm" type="button" value="Email detail" name="update" id="update" size="40" />
+            <input class="btn btn-default input-sm" type="button" value="Agent workgroup utilization" name="update" id="update" size="40" />
         </div>
 
         <div class="row">
             <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Total calls</h3>
-                    </div>
-                    <div class="panel-body">
-                        <div class="form-group">
 
-                            <div class="col-md-2">
-                                <div class="label-group">
-                                    <label>Target</label>
-                                    <label>Actual</label>
-                                    <label>Result</label>
-                                </div>
-                            </div>
-                            <div class="col-md-10">
-
-                                <table class="table table-bordered" id="totalCalls">
-                                    <thead>
-                                        <tr>
-                                            <th>Acd</th>
-                                            <th>Non Acd</th>
-                                            <th>Internal</th>
-                                            <th>Outbaund</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>1</td>
-                                            <td>1</td>
-                                            <td>1</td>
-                                        </tr>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>1</td>
-                                            <td>1</td>
-                                            <td>1</td>
-                                        </tr>
-                                        <tr style="border:none;">
-                                            <td><p>&#x1F601</p></td>
-                                            <td><p>&#x1F601</p></td>
-                                            <td><p>&#x1F601</p></td>
-                                            <td><p>&#x1F601</p></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-
-                        </div>
+                <h4>Total calls</h4>
+                <div class="col-md-2">
+                    <div class="label-group">
+                        <label>Target</label>
+                        <label>Actual</label>
+                        <label>Result</label>
                     </div>
                 </div>
+                <div class="col-md-10">
+
+                    <table class="table table-bordered" id="totalCalls">
+                        <thead>
+                            <tr>
+                                <th>Acd</th>
+                                <th>Non Acd</th>
+                                <th>Internal</th>
+                                <th>Outbaund</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                            </tr>
+                            <tr style="border:none;">
+                                <td>
+                                    <p>&#x1F601</p>
+                                </td>
+                                <td>
+                                    <p>&#x1F601</p>
+                                </td>
+                                <td>
+                                    <p>&#x1F601</p>
+                                </td>
+                                <td>
+                                    <p>&#x1F601</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+
             </div>
             <div class="col-md-3">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Status percent %</h3>
-                    </div>
-                    <div class="panel-body">
-                        <div class="form-group">
-                            <table class="table table-bordered" id="totalCalls">
-                                <thead>
-                                    <tr>
-                                        <th>Available</th>
-                                        <th>OnAcdCall</th>
-                                        <th>Other</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>1</td>
-                                        <td>1</td>
 
-                                    </tr>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>1</td>
-                                        <td>1</td>
+                <h4>Status percent %</h4>
 
-                                    </tr>
-                                    <tr>
-                                        <td><p>&#x1F601</p></td>
-                                        <td><p>&#x1F601</p></td>
-                                        <td><p>&#x1F601</p></td>
 
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
+                <div class="form-group">
+                    <table class="table table-bordered" id="totalCalls">
+                        <thead>
+                            <tr>
+                                <th>Available</th>
+                                <th>OnAcdCall</th>
+                                <th>Other</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>&#x1F601</p>
+                                </td>
+                                <td>
+                                    <p>&#x1F601</p>
+                                </td>
+                                <td>
+                                    <p>&#x1F601</p>
+                                </td>
+
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
+
+
             </div>
+
             <div class="col-md-5">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Time seconds</h3>
-                    </div>
-                    <div class="panel-body">
-                        <div class="form-group">
-                            <table class="table table-bordered" id="totalCalls">
-                                <thead>
-                                    <tr>
-                                        <th>Acd</th>
-                                        <th>NonAcd</th>
-                                        <th>Internal</th>
-                                        <th>Outbaund</th>
-                                        <th>ACDAvg</th>
-                                        <th>NonACDAvg</th>
-                                        <th>IntAvg</th>
-                                        <th>OutAvg</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>1</td>
-                                        <td>1</td>
-                                        <td>1</td>
-                                        <td>1</td>
-                                        <td>1</td>
-                                        <td>1</td>
-                                        <td>1</td>
-                                    </tr>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>1</td>
-                                        <td>1</td>
-                                        <td>1</td>
-                                        <td>1</td>
-                                        <td>1</td>
-                                        <td>1</td>
-                                        <td>1</td>
-                                    </tr>
-                                    <tr>
-                                        <td><p>&#x1F601</p></td>
-                                        <td><p>&#x1F601</p></td>
-                                        <td><p>&#x1F601</p></td>
-                                        <td><p>&#x1F601</p></td>
-                                        <td><p>&#x1F601</p></td>
-                                        <td><p>&#x1F601</p></td>
-                                        <td><p>&#x1F601</p></td>
-                                        <td><p>&#x1F601</p></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
+
+                <h4>Time seconds</h4>
+
+
+                <div class="form-group">
+                    <table class="table table-bordered" id="totalCalls">
+                        <thead>
+                            <tr>
+                                <th>Acd</th>
+                                <th>NonAcd</th>
+                                <th>Internal</th>
+                                <th>Outbaund</th>
+                                <th>ACDAvg</th>
+                                <th>NonACDAvg</th>
+                                <th>IntAvg</th>
+                                <th>OutAvg</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>&#x1F601</p>
+                                </td>
+                                <td>
+                                    <p>&#x1F601</p>
+                                </td>
+                                <td>
+                                    <p>&#x1F601</p>
+                                </td>
+                                <td>
+                                    <p>&#x1F601</p>
+                                </td>
+                                <td>
+                                    <p>&#x1F601</p>
+                                </td>
+                                <td>
+                                    <p>&#x1F601</p>
+                                </td>
+                                <td>
+                                    <p>&#x1F601</p>
+                                </td>
+                                <td>
+                                    <p>&#x1F601</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-md-12">
+
+                <h4>Email summary</h4>
+
+                <div class="panel-body">
+                    <div class="form-group">
+
                     </div>
                 </div>
             </div>
@@ -174,15 +212,14 @@
         <div class="row">
 
             <div class="col-md-12">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Email summary</h3>
-                    </div>
-                    <div class="panel-body">
-                        <div class="form-group">
 
-                        </div>
+                <h4>Fax summary</h4>
+
+                <div class="panel-body">
+                    <div class="form-group">
+
                     </div>
+
                 </div>
             </div>
         </div>
@@ -190,40 +227,24 @@
         <div class="row">
 
             <div class="col-md-12">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Fax summary</h3>
-                    </div>
-                    <div class="panel-body">
-                        <div class="form-group">
 
-                        </div>
-                    </div>
+                <h4>Get Results</h4>
+
+
+                <div class="button-group">
+                    <input class="btn btn-default input-sm" type="button" value="Voice ACD detail" name="update" id="update" size="40" />
+                    <input class="btn btn-default input-sm" type="button" value="Voice Non ACD detail" name="update" id="update" size="40" />
+                    <input class="btn btn-default input-sm" type="button" value="Fax detail" name="update" id="update" size="40" />
+                    <input class="btn btn-default input-sm" type="button" value="Email detail" name="update" id="update" size="40" />
+                    <input class="btn btn-default input-sm" type="button" value="Agent workgroup utilization" name="update" id="update" size="40" />
+                    <input class="btn btn-default input-sm" type="button" value="Email detail" name="update" id="update" size="40" />
+                    <input class="btn btn-default input-sm" type="button" value="Agent workgroup utilization" name="update" id="update" size="40" />
                 </div>
-            </div>
-        </div>
 
-        <div class="row">
 
-            <div class="col-md-12">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Get Results</h3>
-                    </div>
-                    <div class="panel-body">
-                        <div class="form-group">
-                            <input class="btn btn-default" type="button" value="Voice ACD detail" name="update" id="update" size="40" />
-                            <input class="btn btn-default" type="button" value="Voice Non ACD detail" name="update" id="update" size="40" />
-                            <input class="btn btn-default" type="button" value="Fax detail" name="update" id="update" size="40" />
-                            <input class="btn btn-default" type="button" value="Email detail" name="update" id="update" size="40" />
-                            <input class="btn btn-default" type="button" value="Agent workgroup utilization" name="update" id="update" size="40" />
-                            <input class="btn btn-default" type="button" value="Email detail" name="update" id="update" size="40" />
-                            <input class="btn btn-default" type="button" value="Agent workgroup utilization" name="update" id="update" size="40" />
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
 </body>
+
 </html>
